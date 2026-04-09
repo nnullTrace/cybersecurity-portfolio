@@ -63,6 +63,7 @@ E hỏi nhiều người thì người nói phí 175tr, người nói 180tr nên
 "Has anyone here gone to Australia or migrated there? Can you advise me on the cost and visa 482 process?  
 Some people say it costs several hundred million VND, others say 180 million with 80% deferred payment...  
 I've asked many people and got different answers - 175M, 180M - so I'm really confused."
+
 👉 Indicates lack of pricing transparency and possible broker manipulation  
 
 ![Facebook Evidence](./fb-cost-discussion.png)
@@ -85,6 +86,7 @@ No language or skill requirements
 Income up to 85 million VND/month, excluding overtime  
 Accommodation and 3 meals per day provided  
 Contact via phone number or comment to receive consultation and earliest flight schedule"
+
 👉 Indicates recruitment messaging using high salary, low requirements, and financial incentives to attract potential migrants.
 
 ![TikTok Evidence](./tiktok-recruitment.png)

@@ -8,7 +8,7 @@ The goal is to identify:
 
 ## 🎯 Scope
 - Platforms: Facebook, TikTok, YouTube, Threads, Reddit, Zalo  
-- Timeframe: Feb 2025 – Mar 2026  
+- Timeframe: Feb 2025 - Mar 2026  
 - Data: Publicly available sources only  
 
 ## 🔍 Methodology

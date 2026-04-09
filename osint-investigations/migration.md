@@ -1,4 +1,4 @@
-# 🚨 OSINT Case: Migration Patterns (Vietnam → Australia)
+# 🚨 OSINT Case: Migration Patterns (Vietnam -> Australia)
 ## 🧠 Overview
 This investigation analyzes Vietnamese-language online discussions related to migration opportunities to Australia.
 The goal is to identify:

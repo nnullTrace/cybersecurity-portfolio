@@ -53,6 +53,7 @@ The goal is to identify:
 
 ### Evidence 1 - Cost inconsistency discussion (Facebook)
 Users compare different broker quotes and express confusion about migration costs.
+
 📌 Original (Vietnamese):
 "Anh, chị ai đã từng đi Úc hoặc định cư bên Úc giới thiệu tư vấn giúp e chi phí đi và visa 482...  
 Người thì nói chi phí mấy trăm triệu, người thì nói 180tr cho nợ 80%...  
@@ -68,6 +69,7 @@ I've asked many people and got different answers - 175M, 180M - so I'm really co
 
 ### Evidence 2 - Recruitment content (TikTok)
 Videos promote high salary, minimal requirements, and reduced migration costs.
+
 📌Original (Vietnamese):
 "Doanh nghiệp Úc đang thiếu lao động làm Farm  
 Hỗ trợ lao động lên tới 85% phí xuất cảnh  

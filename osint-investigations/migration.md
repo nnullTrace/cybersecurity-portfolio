@@ -51,13 +51,13 @@ Signals suggest **broker-driven ecosystem**, not transparent processes
 
 ## 📸 Evidence (Sample)
 
-### Evidence 1 – Cost inconsistency discussion (Facebook)
+### Evidence 1 - Cost inconsistency discussion (Facebook)
 Users compare different broker quotes and express confusion about migration costs.
 👉 Indicates lack of pricing transparency and possible broker manipulation  
 
 *image*
 
-### Evidence 2 – Recruitment content (TikTok)
+### Evidence 2 - Recruitment content (TikTok)
 Videos promote high salary, minimal requirements, and reduced migration costs.
 👉 Designed to attract and convert users into private communication  
 

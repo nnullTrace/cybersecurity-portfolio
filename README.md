@@ -15,7 +15,7 @@ Hands-on investigation of security alerts and simulated incidents.
 
 ### 🟣 OSINT Investigations
 Research-driven analysis of real-world online activity and behavioral patterns.
-* Migration pattern analysis (Vietnam → Australia)
+* Migration pattern analysis (Vietnam -> Australia)
 * Social media intelligence
 * Cross-platform correlation
 

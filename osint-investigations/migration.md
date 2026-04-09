@@ -22,6 +22,7 @@ The goal is to identify:
 ### 1. Facebook = Primary Discussion Hub
 - Users discuss visa options, job opportunities, and migration costs  
 - Community acts as an informal verification network
+
 📌 Insight: Information is crowdsourced and validated through community interaction  
 
 ### 2. TikTok = Recruitment Entry Point
@@ -30,11 +31,13 @@ The goal is to identify:
   - Low requirements  
   - Fast visa processing  
 - Users are redirected to private messaging
+
 📌 Insight: TikTok acts as the **top-of-funnel** for recruitment  
 
 ### 3. Shift to Private Channels
 - Zalo / WhatsApp used after initial contact  
 - Detailed info (cost, process) is not shared publicly
+
 📌 Insight: Public → Private transition = key behavioral pattern  
 
 ### 4. Risk Indicators Identified
@@ -43,6 +46,7 @@ The goal is to identify:
 - Discussions about:
   - Working on tourist visas  
   - Switching to asylum
+
 📌 Insight: Signals suggest **broker-driven ecosystem**, not transparent processes  
 
 ## 📸 Evidence (Sample)

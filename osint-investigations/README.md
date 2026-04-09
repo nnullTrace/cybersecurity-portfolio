@@ -26,7 +26,7 @@ This section contains Open Source Intelligence (OSINT) investigations focused on
 
 
 ## 📂 Cases
-### Migration Patterns (Vietnam → Australia)
+### Migration Patterns (Vietnam -> Australia)
 Analysis of Vietnamese online discussions related to migration opportunities, recruitment methods, and potential risk indicators.
 Focus:
 * Social media recruitment patterns

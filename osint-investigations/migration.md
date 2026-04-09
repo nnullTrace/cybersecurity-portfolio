@@ -21,33 +21,29 @@ The goal is to identify:
 ## 🔎 Key Findings
 ### 1. Facebook = Primary Discussion Hub
 - Users discuss visa options, job opportunities, and migration costs  
-- Community acts as an informal verification network  
-📌 Insight:  
-Information is crowdsourced and validated through community interaction  
+- Community acts as an informal verification network
+📌 Insight: Information is crowdsourced and validated through community interaction  
 
 ### 2. TikTok = Recruitment Entry Point
 - Short-form videos promote:
   - High salary  
   - Low requirements  
   - Fast visa processing  
-- Users are redirected to private messaging  
-📌 Insight:  
-TikTok acts as the **top-of-funnel** for recruitment  
+- Users are redirected to private messaging
+📌 Insight: TikTok acts as the **top-of-funnel** for recruitment  
 
 ### 3. Shift to Private Channels
 - Zalo / WhatsApp used after initial contact  
-- Detailed info (cost, process) is not shared publicly  
-📌 Insight:  
-Public → Private transition = key behavioral pattern  
+- Detailed info (cost, process) is not shared publicly
+📌 Insight: Public → Private transition = key behavioral pattern  
 
 ### 4. Risk Indicators Identified
 - Inconsistent migration costs (80M → 700M VND)  
 - Unrealistic job offers  
 - Discussions about:
   - Working on tourist visas  
-  - Switching to asylum  
-📌 Insight:  
-Signals suggest **broker-driven ecosystem**, not transparent processes  
+  - Switching to asylum
+📌 Insight: Signals suggest **broker-driven ecosystem**, not transparent processes  
 
 ## 📸 Evidence (Sample)
 
@@ -63,6 +59,7 @@ E hỏi nhiều người thì người nói phí 175tr, người nói 180tr nên
 Some people say it costs several hundred million VND, others say 180 million with 80% deferred payment...  
 I've asked many people and got different answers - 175M, 180M - so I'm really confused."
 👉 Indicates lack of pricing transparency and possible broker manipulation  
+
 ![Facebook Evidence](./fb-cost-discussion.png)
 
 ### Evidence 2 - Recruitment content (TikTok)
@@ -83,6 +80,7 @@ Income up to 85 million VND/month, excluding overtime
 Accommodation and 3 meals per day provided  
 Contact via phone number or comment to receive consultation and earliest flight schedule"
 👉 Indicates recruitment messaging using high salary, low requirements, and financial incentives to attract potential migrants.
+
 ![TikTok Evidence](./tiktok-recruitment.png)
 
 ## ⚖️ Assessment

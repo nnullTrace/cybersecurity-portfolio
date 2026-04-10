@@ -1,5 +1,6 @@
 # SOC L1 Projects
 This section contains hands-on SOC L1 simulations focused on alert triage, investigation, and incident response.
+The projects are based on simulated SOC scenarios inspired by hands-on training platforms.
 
 ## Skills Demonstrated
 - SIEM alert analysis

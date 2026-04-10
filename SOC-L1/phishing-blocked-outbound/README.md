@@ -44,14 +44,15 @@ Shortly after, a firewall alert was triggered when the user’s device attempted
 
 ### 3. Threat Intelligence Check
 - Verified IP reputation using browser-based tools (e.g. browserleaks.com)  
-- Confirmed association with URL redirection service  
+- Identified as URL redirection service (bit.ly infrastructure)
 
 ### 4. Log Correlation
 - Correlated firewall logs with email activity  
 - Identified phishing email containing the same URL  
 
-### 5. User Activity Verification
-- Outbound connection attempt indicates likely user interaction (link click)  
+### 5. User Validation
+- Verified user identity using internal directory records  
+- Confirmed the account belongs to a legitimate employee  
 
 
 ## Outcome

@@ -4,7 +4,7 @@
 Simulated SOC L1 investigation of a phishing email leading to a blocked outbound connection.
 
 ## Scenario
-Short description...
+An employee received a phishing email impersonating a delivery service. The email contained a shortened URL. The user attempted to access the link, triggering a firewall alert.
 
 ## Investigation Steps
 1. Alert review

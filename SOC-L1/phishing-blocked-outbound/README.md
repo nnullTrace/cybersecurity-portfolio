@@ -52,7 +52,11 @@ Shortly after, a firewall alert was triggered when the user’s device attempted
 
 ### 5. User Validation
 - Verified user identity using internal directory records  
-- Confirmed the account belongs to a legitimate employee  
+- Confirmed the account belongs to a legitimate employee
+
+### 6. Log Review (SIEM)
+- Searched for additional activity from source IP (10.20.2.17)
+- No further suspicious connections or abnormal behavior observed
 
 
 ## Outcome

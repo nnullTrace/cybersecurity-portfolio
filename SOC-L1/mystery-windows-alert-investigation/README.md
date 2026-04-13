@@ -22,8 +22,8 @@ The alert indicated that part of the system was blocked due to an unverified app
 ### 1. Check Services
 
 * Opened `services.msc`
-* ❌ No service named **OneBUpdateService** found
-  → Suspicious (process exists but no registered service)
+* No service named **OneBUpdateService** found
+  -> Suspicious (process exists but no registered service)
 
 
 ### 2. Check Task Scheduler

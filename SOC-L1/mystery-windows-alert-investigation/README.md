@@ -13,6 +13,7 @@ The alert indicated that part of the system was blocked due to an unverified app
 * **Message:**
   *"Part of this app has been blocked. We cannot confirm who published OneBUpdateService.exe."*
 * **Impact:** Repeated pop-up notifications causing disruption
+
 ![Aler](images/alert.png)
 
 
@@ -69,11 +70,9 @@ The alert indicated that part of the system was blocked due to an unverified app
 
 
 ## 🧹 Remediation
-
 * Deleted scheduled task: `OneBUpdate`
 * Removed associated executable file
 * Ran:
-
   * Windows Defender Full Scan
   * Microsoft Defender Offline Scan
 
@@ -81,7 +80,6 @@ The alert indicated that part of the system was blocked due to an unverified app
 
 
 ## 🧠 Key Takeaways
-
 * Persistence mechanisms may exist outside of Services (e.g., Task Scheduler)
 * Unknown executables with no verified publisher should be treated as suspicious
 * Always verify file paths before deleting (avoid removing legitimate software)
@@ -89,18 +87,14 @@ The alert indicated that part of the system was blocked due to an unverified app
 
 
 ## 🎯 Conclusion
-
 This case demonstrates a basic but realistic scenario of detecting and removing a suspicious persistence mechanism on a Windows system.
-
 It highlights the importance of:
-
 * Systematic investigation
 * Verifying legitimacy before action
 * Understanding common persistence techniques
 
 
 ## 🧩 Skills Demonstrated
-
 * Basic incident investigation (SOC Level 1)
 * Windows system analysis
 * Persistence detection

@@ -24,7 +24,7 @@ source="VPNlogs.json" action=failed
   * **IP:** 172.201.60.191
   * **User:** Simon
 
-👉 Indicates a potential brute force attack targeting a specific account.
+  -> Indicates a potential brute force attack targeting a specific account.
 
 ![Failed Attempts](images/failed_attempts_by_ip_username.png)
 
@@ -38,7 +38,7 @@ source="VPNlogs.json" UserName="Simon"
 * **Failed:** 274 attempts
 * **Successful (built):** 4 logins
 * All activity came from the same IP address
-👉 Confirms brute force attack **resulted in successful authentication**.
+  -> Confirms brute force attack **resulted in successful authentication**.
 
 ![Failed vs Successful Login](images/failed_vs_success_login_activities.png)
  
@@ -56,7 +56,7 @@ source="VPNlogs.json" UserName="Simon" action=built
   * January 12–15, 2022
   * Consistently around **08:35 AM**
 
-👉 Repeated logins occurring at consistent times suggest potential automated or habitual attacker behavior.
+  -> Repeated logins occurring at consistent times suggest potential automated or habitual attacker behavior.
 
 ![Timeline and Country](images/successful_login_timeline_canada.png)
 

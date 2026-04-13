@@ -13,6 +13,7 @@ The alert indicated that part of the system was blocked due to an unverified app
 * **Message:**
   *"Part of this app has been blocked. We cannot confirm who published OneBUpdateService.exe."*
 * **Impact:** Repeated pop-up notifications causing disruption
+![Aler](images/alert.png)
 
 
 ## 🔍 Investigation Process
@@ -34,6 +35,7 @@ The alert indicated that part of the system was blocked due to an unverified app
 
 ✅ Identified as persistence mechanism
 
+![OneBUpdate](images/suspicious-task-onebupdate.png)
 
 ### 3. File Path Analysis
 
@@ -62,6 +64,8 @@ The alert indicated that part of the system was blocked due to an unverified app
 🧠 Lesson:
 
 > Similar naming does NOT mean same origin
+
+![False Positive](images/false-positive-onedc-path.png)
 
 
 ## 🧹 Remediation

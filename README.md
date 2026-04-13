@@ -21,7 +21,7 @@ Cybersecurity portfolio focused on **SOC analysis, incident investigation, and t
 
 ## 📂 Portfolio Structure
 
-### 🔵 SOC (Incident Labs) — *In Progress*
+### 🔵 SOC (Incident Labs) - *In Progress*
 
 Hands-on investigations of security alerts and simulated incidents, following real-world SOC workflows.
 

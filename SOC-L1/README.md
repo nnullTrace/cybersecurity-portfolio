@@ -48,8 +48,8 @@ To build practical SOC L1 skills by:
 ### 3. 🔐 VPN Brute Force & Account Compromise (Splunk)
 
 * Detected **274 failed login attempts** from a single IP
-* Identified successful login → **account compromise (Simon)**
-* Observed repeated access over multiple days → **persistence**
+* Identified successful login -> **account compromise (Simon)**
+* Observed repeated access over multiple days -> **persistence**
 
 👉 Focus: SPL log analysis, brute force detection, incident investigation
 

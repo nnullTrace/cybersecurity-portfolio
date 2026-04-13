@@ -33,7 +33,7 @@ To build practical SOC L1 skills by:
 * Confirmed **True Positive phishing attempt**
 * Escalated to L2 for further endpoint analysis
 
-👉 Focus: Alert triage, phishing detection, log correlation, escalation
+Focus: Alert triage, phishing detection, log correlation, escalation
 
 
 ### 2. 🖥️ Suspicious OneBUpdateService (Persistence Detection)
@@ -43,7 +43,7 @@ To build practical SOC L1 skills by:
 * Validated against legitimate software to avoid false positive
 * Removed malicious task and file, no further alerts observed
 
-👉 Focus: Endpoint investigation, persistence detection, remediation
+Focus: Endpoint investigation, persistence detection, remediation
 
 ### 3. 🔐 VPN Brute Force & Account Compromise (Splunk)
 
@@ -51,6 +51,6 @@ To build practical SOC L1 skills by:
 * Identified successful login -> **account compromise (Simon)**
 * Observed repeated access over multiple days -> **persistence**
 
-👉 Focus: SPL log analysis, brute force detection, incident investigation
+Focus: SPL log analysis, brute force detection, incident investigation
 
 

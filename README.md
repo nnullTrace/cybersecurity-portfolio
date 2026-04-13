@@ -4,13 +4,13 @@ Cybersecurity portfolio focused on **SOC analysis, incident investigation, and t
 
 ## 📈 Goals
 
-* Advancing SOC investigation skills
-* Building real-world detection use cases
-* Preparing for CompTIA Security+
+* Advance SOC investigation skills
+* Build real-world detection use cases
+* Prepare for CompTIA Security+ Certification
 
 ## 🔍 What I Do
 
-* Analyze security alerts and investigate incidents
+* Investigate security alerts and analyze incidents
 * Perform log analysis using SIEM (Splunk)
 * Identify attack patterns and validate threats
 

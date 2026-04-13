@@ -7,11 +7,15 @@ Cybersecurity portfolio showcasing hands-on work across **SOC analysis, OSINT in
 * Assess governance gaps and business impact from a risk perspective
 
 ## 📂 Portfolio Structure
-### 🔵 SOC (Incident Labs)
-Hands-on investigation of security alerts and simulated incidents.
-* Log analysis
-* Threat detection
-* True Positive vs False Positive
+### 🔵 SOC (Incident Labs) - *In Progress*
+Hands-on investigations of security alerts and simulated incidents, focused on real-world SOC workflows.
+**Focus Areas:**
+* Log analysis (SIEM / Splunk)
+* Threat detection & investigation
+* Incident classification (True Positive / False Positive)
+* Alert triage & escalation
+
+  !!! This section is actively being expanded with additional projects.
 
 ### 🟣 OSINT Investigations
 Research-driven analysis of real-world online activity and behavioral patterns.

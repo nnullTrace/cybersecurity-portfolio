@@ -1,48 +1,43 @@
-# 🧠 Nhi | Cybersecurity Portfolio
-Cybersecurity portfolio showcasing hands-on work across **SOC analysis, OSINT investigations, and GRC risk assessment**.
+# 🧠 Nhi | SOC Analyst Portfolio
+
+Cybersecurity portfolio focused on **SOC analysis, incident investigation, and threat detection**.
 
 ## 🔍 What I Do
+
 * Analyze security alerts and investigate incidents
-* Conduct OSINT research to identify patterns and risks
-* Assess governance gaps and business impact from a risk perspective
+* Perform log analysis using SIEM (Splunk)
+* Identify attack patterns and validate threats
+
+## 📈 Current Focus
+
+* Advancing SOC investigation skills
+* Building real-world detection use cases
+* Preparing for CompTIA Security+
 
 ## 📂 Portfolio Structure
+
 ### 🔵 SOC (Incident Labs) - *In Progress*
-Hands-on investigations of security alerts and simulated incidents, focused on real-world SOC workflows.
+
+Hands-on investigations of security alerts and simulated incidents, following real-world SOC workflows.
+
 **Focus Areas:**
+
 * Log analysis (SIEM / Splunk)
 * Threat detection & investigation
 * Incident classification (True Positive / False Positive)
 * Alert triage & escalation
 
-  !!! This section is actively being expanded with additional projects.
-
-### 🟣 OSINT Investigations
-Research-driven analysis of real-world online activity and behavioral patterns.
-* Migration pattern analysis (Vietnam -> Australia)
-* Social media intelligence
-* Cross-platform correlation
-
-### 🟡 GRC (Risk Analysis)
-Governance-focused case studies analyzing risk, impact, and control gaps.
-* Data exposure
-* Insider risk
-* Operational risk
+🚧 Actively expanding with new SOC-focused projects.
 
 ## 🛠️ Skills Demonstrated
-* Log analysis & incident investigation
-* OSINT & behavioral analysis
-* Risk identification & governance thinking
-* Structured problem-solving
 
-## 📈 Current Focus
-* Strengthening SOC investigation skills
-* Expanding OSINT case studies
-* Preparing for CompTIA Security+
+* SIEM (Splunk) log analysis
+* Incident investigation & triage
+* Brute force & phishing detection
+* Basic endpoint analysis
+* Analytical thinking
 
 ## 🌐 Languages
-Bilingual (ENG–VIET):
-* Vietnamese (Native)
-* English (Professional Working Proficiency)
 
-
+**Vietnamese (Native)**
+**English (Professional Working Proficiency)**

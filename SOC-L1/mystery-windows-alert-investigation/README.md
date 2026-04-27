@@ -51,7 +51,7 @@ The alert indicated that part of the system was blocked due to an unverified app
 * Blocked by Windows Defender
 
 
-### 4. False Positive Check (Important)
+### 4. False Positive Check
 
 * Found similar task:
 
@@ -68,35 +68,46 @@ The alert indicated that part of the system was blocked due to an unverified app
 
 ![False Positive](images/false-positive-onedc-path.png)
 
+## 🧩 ATT&CK Mapping
+
+### Persistence
+Technique: Scheduled Task/Job: Scheduled Task (T1053.005)
+-> A scheduled task was created using Windows Task Scheduler to repeatedly execute an unverified executable, enabling persistence on the system
+
+### Defense Evasion
+Technique: Masquerade Task or Service (T1036.004)
+-> The task and executable used naming patterns similar to legitimate update services to avoid detection and user suspicion
 
 ## 🧹 Remediation
-* Deleted scheduled task: `OneBUpdate`
+* Deleted scheduled task: OneBUpdate
 * Removed associated executable file
-* Ran:
-  * Windows Defender Full Scan
-  * Microsoft Defender Offline Scan
+Performed:
+* Windows Defender Full Scan
+* Microsoft Defender Offline Scan
 
-✅ Result: No further alerts after restart
+✅ Result: No further alerts observed after system restart
 
 
-## 🧠 Key Takeaways
-* Persistence mechanisms may exist outside of Services (e.g., Task Scheduler)
-* Unknown executables with no verified publisher should be treated as suspicious
-* Always verify file paths before deleting (avoid removing legitimate software)
-* Naming similarities can be misleading
+## 🧠 Key findings
+* A scheduled task (OneBUpdate) was used to maintain persistence (T1053.005)
+* The associated executable (OneBUpdateService.exe) had no verified publisher
+* The file was executed automatically via Task Scheduler
+* Naming closely resembled legitimate software, indicating masquerading behavior (T1036.004)
+* No corresponding legitimate service was found
+* A legitimate MSI updater process was identified and excluded as a false positive
 
 
 ## 🎯 Conclusion
-This case demonstrates a basic but realistic scenario of detecting and removing a suspicious persistence mechanism on a Windows system.
-It highlights the importance of:
-* Systematic investigation
-* Verifying legitimacy before action
-* Understanding common persistence techniques
+This investigation identified a persistence mechanism using a scheduled task (T1053.005) to execute an unverified executable. The naming convention is consistent with masquerading behavior (T1036.004) used to evade detection.
+
+The threat was successfully removed, and no further malicious activity was observed. This case highlights the importance of validating suspicious processes, distinguishing false positives, and understanding common persistence techniques.
 
 
 ## 🧩 Skills Demonstrated
 * Basic incident investigation (SOC Level 1)
-* Windows system analysis
-* Persistence detection
-* Threat validation and remediation
+* Windows system analysis (Services, Task Scheduler)
+* Persistence detection (T1053.005)
+* Defense evasion identification (T1036.004)
+* Threat validation and false positive analysis
+* Incident response and remediation
 

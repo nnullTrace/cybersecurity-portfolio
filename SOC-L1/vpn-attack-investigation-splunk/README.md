@@ -61,10 +61,10 @@ source="VPNlogs.json" UserName="Simon" action=built
 ![Timeline and Country](images/successful_login_timeline_canada.png)
 
 ## 🧩 ATT&CK Mapping
-| Stage                | Tactic            | Technique                                  |
-| -------------------- | ----------------- | -------------------------------------------|
-| Initial Access       | Credential Access | Brute Force: Password Guessing (T1110.001) |
-| Persistence / Access | Persistence       | Valid Accounts (T1078)                     |
+| Stage                | Tactic            | Technique                                                                                               |
+| -------------------- | ----------------- | --------------------------------------------------------------------------------------------------------|
+| Initial Access       | Credential Access | Brute Force: Password Guessing (T1110.001)                                                              |
+| Persistence / Access | Persistence       | Valid Accounts (T1078) - sub-technique not specified due to insufficient evidence regarding account type|
 
 ➡️ The attacker gained access via brute force and maintained access using valid credentials without deploying malware
 

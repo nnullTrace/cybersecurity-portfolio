@@ -1,13 +1,13 @@
-# 🔐 VPN Brute Force & Account Compromise Investigation (Splunk)
+# VPN Brute Force & Account Compromise Investigation (Splunk)
 
 ## 📌 Scenario
 
-A VPN log dataset was analyzed to identify suspicious authentication activity.
-This investigation was conducted independently (without predefined lab questions), simulating a real-world SOC analysis workflow.
+A VPN log dataset was analyzed to identify suspicious authentication activity. This investigation was conducted independently (without predefined lab questions), simulating a real-world SOC analysis workflow.
 
 ## 🧩 Notes
 * Dataset used is a simulated VPN log file for training purposes
 * Analysis focused on detecting real-world attack patterns using Splunk SPL
+* Findings were mapped to MITRE ATT&CK techniques to provide structured analysis
 
 ## 🔍 Investigation Process
 ### 1. Identify Failed Login Attempts
@@ -60,30 +60,60 @@ source="VPNlogs.json" UserName="Simon" action=built
 
 ![Timeline and Country](images/successful_login_timeline_canada.png)
 
+## 🧩 ATT&CK Mapping
+| Stage                | Tactic            | Technique              |
+| -------------------- | ----------------- | ---------------------- |
+| Initial Access       | Credential Access | Brute Force (T1110)    |
+| Persistence / Access | Persistence       | Valid Accounts (T1078) |
+
+➡️ The attacker gained access via brute force and maintained access using valid credentials without deploying malware
+
 ## 🧠 Key Findings
-* A **single IP (172.201.60.191)** targeted a single user (**Simon**)
-* A high volume of failed login attempts (**274**) was observed
-* The attacker successfully authenticated (**4 times**)
-* Repeated logins occurred over multiple days at consistent times
-* Activity originated from a single country (Canada)
+* A single IP (172.201.60.191) targeted a single user (Simon)
+* High volume of failed login attempts (274) indicates brute force activity
+* Successful authentication (4 times) confirms account compromise
+* Repeated access over multiple days suggests persistent unauthorized access
+* Consistent login timing indicates potential automation
+* Activity originated from a single geographic location (Canada)
 
 
 ## 🚨 Conclusion
-This activity strongly indicates a:
-> **Successful brute force attack leading to account compromise, followed by persistent unauthorized access.**
+This investigation identified a successful brute force attack (T1110) leading to account compromise and persistent unauthorized access via valid credentials (T1078).
+
+The attacker maintained repeated access over several days, indicating ongoing unauthorized presence within the environment. Further investigation is required to determine potential post-authentication activity such as lateral movement or data access.
 
 
 ## 🛡️ Recommended Next Steps
+### 🔐 Immediate Response
 * Reset password for the compromised account
-* Block or monitor IP address (172.201.60.191)
-* Implement alerting for:
-  * High number of failed login attempts
-  * Successful login after multiple failures
-* Investigate post-login activity for potential lateral movement or data access
-* Enforce stronger authentication mechanisms (e.g., MFA)
+* Enforce Multi-Factor Authentication (MFA)
+* Invalidate active sessions
+
+### 🔍 Investigation & Containment
+Review post-login activity:
+* Resource access
+* Internal movement
+* Data access or exfiltration
+* Monitor or block suspicious IP (172.201.60.191)
+
+### 🚨 Detection Improvements (ATT&CK-aligned)
+Alert on:
+* High volume of failed login attempts (T1110)
+* Successful login following multiple failures
+* Repeated login patterns at consistent times
+Implement anomaly detection for:
+* Unusual login behavior
+* Geographic anomalies
+
+### 🧩 Security Hardening
+* Enforce strong password policies
+* Enable account lockout thresholds
+* Regularly audit inactive or unused accounts
 
 ## 🧠 Skills Demonstrated
-- Log analysis using Splunk SPL  
-- Detection of brute force attacks  
-- Identifying account compromise  
-- Basic incident investigation workflow  
+- Log analysis using Splunk SPL
+- Detection of brute force attacks (T1110)
+- Identification of account compromise (T1078)
+- Mapping incidents to MITRE ATT&CK
+- Incident investigation and response workflow
+- Basic threat hunting mindset
